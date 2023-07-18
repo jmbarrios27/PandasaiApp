@@ -20,7 +20,7 @@ st.set_page_config(
     layout="wide",)
 
 # Utilizando la llave de OpneAI para comenzar a consultar la data
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = ""
 llm = OpenAI(api_token=OPENAI_API_KEY)
 pandas_ai = PandasAI(llm, save_charts=True,save_charts_path='..')
 
