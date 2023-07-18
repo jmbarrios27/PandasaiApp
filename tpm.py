@@ -28,8 +28,8 @@ def download_csv(dataframe):
 
 
 def tpm():
-    aws_access_key_id = 'AKIAYXL4FV32LQ46GAUJ'
-    aws_secret_access_key = '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'
+    aws_access_key_id = ''
+    aws_secret_access_key = 'L'
     aws_region = 'us-east-1'
 
     s3_file_path = 'Streamlit/tpm.csv'
